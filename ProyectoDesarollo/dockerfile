@@ -1,0 +1,13 @@
+FROM node:13-alpine
+
+RUN mkdir -p /home/app
+
+COPY ./Código /home/app
+
+WORKDIR /home/app
+
+RUN npm install -g http-server
+
+EXPOSE 80
+
+CMD ["http-server", "-p", "80", "-c-1"]

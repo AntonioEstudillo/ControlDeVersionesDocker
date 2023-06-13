@@ -1,0 +1,99 @@
+
+.datosPostVenta {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .datosPostVenta img {
+    float: left;
+    margin-right: 20px;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  
+  .datosPostVenta label {
+    font-size: 24px;
+  }
+  
+  .datosPostVenta .editableTF{
+    width: 99%;
+    height: 200px;
+    border: none;
+    resize: none;
+    overflow: auto;
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+  #contador-Cantidad {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  #disminuir,
+  #incrementar {
+    background-color: #0056b3;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 33px;
+    height: 33px;
+    text-orientation: upright;
+  }
+  
+  #disminuir:hover,
+  #incrementar:hover {
+    background-color: #007bff;
+  }
+
+  .btn-comprar {
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #0056b3;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #007bff;
+  }
+
+
+  .datosAutor {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  .datosAutor:hover {
+    background-color: #DDDDDD;
+  }
+
+  .editable {
+    color: #333;
+  }
+  
+  .btn-editar, .btn-guardar, .btn-eliminar, .btn-conversacion {
+    margin-top: 10px;
+    background-color: #0033CB;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

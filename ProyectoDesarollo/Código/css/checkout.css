@@ -1,0 +1,38 @@
+.titulo-principal {
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 50px;
+    color: #555;
+    font-family: Arial, sans-serif;
+  }
+  
+  .titulo-resumen {
+    margin-left: 40px;
+    margin-top: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  .nombre-producto {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cantidad-producto, .total, .fecha-compra, .ref-pago {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+    color: #555;
+    font-family: Arial, sans-serif;
+  }
+  
+  .imgP {
+    width: 200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+  }
+  

@@ -1,0 +1,61 @@
+.container form label{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin-right: 10px;
+   
+   
+}
+.alinear{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px ;
+}
+
+.container form{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.alinear label{
+    width: 114px;
+}
+
+.container form input[type="text"], input[type="password"], input[type="email"]{
+    margin-top: 10px ;
+    text-align: left;
+    width: 500px;
+    border: solid black 1px;
+}
+
+.container form input[id="cp"],.container form input[id="numeroCasa"]{
+    display: flex;
+    width: 179px;
+    margin-right: 10px;
+}
+
+.container input[type="submit"]{
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    background-color: #0033CB;
+    border-radius: 15px;
+    border: none;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30px;
+}
+
+.container button{
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    background-color: #0033CB;
+    border-radius: 15px;
+    border: none;
+    align-items: center;
+    
+}

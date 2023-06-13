@@ -1,0 +1,48 @@
+#publicaciones-venta-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .publicacion-venta {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #eee;
+  }
+  
+  .publicacion-venta:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  .publicacion-venta img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .publicacion-venta h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .publicacion-venta .descripcion {
+    max-height: 60px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+  }
+
+  
+.publicacion-venta p.descripcion {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .publicacion-venta p:last-child {
+    font-weight: bold;
+  }

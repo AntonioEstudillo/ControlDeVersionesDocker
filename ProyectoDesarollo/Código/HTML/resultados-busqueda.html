@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trash Market</title>
+    <link href="../css/estilos.css" rel="stylesheet" />
+    <link href="../css/carrusel.css " rel="stylesheet" />
+    <link href="../css/comunidad.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/dbe2a1fa67.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="../JavaScript/main.js"></script>
+    <script type="module" src="../JavaScript/busquedas.js"></script>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+
+    
+      <div class="row">
+        <!--Espacio del logo-->
+        <div class="col-sm-3 col-md-3 barraSuperior">
+          <a href="../index.html">
+            <img class="imgLogo" src="../Imagenes/LogoRecortado.png" alt="Trash Market Logo" />
+          </a>
+        </div>
+        <!--Barra de búsqueda-->
+        <div class="col-sm-7 col-md-7 barraSuperior">
+          <div class="search row">
+            <form action="#" id="search-form">
+              <input type="text" name="search" placeholder=" ¿Qué está buscando?" class="col-11" />
+              <button id="btn-busqueda">
+                <img src="../Imagenes/Lupa.png" />
+              </button>
+            </form>
+          </div>
+        </div>  
+        <!--Notificaciones y perfil -->
+        <div class="col-md-2 col-sm-2 menu">
+          <div class="barraSuperior">
+            <div class="dropdown">
+              <button  class="notification-btn btn btn-secondary dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: #0033cb; border-radius: 100%; border-color: #0033cb;">
+                <i class="fa fa-bell" style="color: white; font-size: 30px"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--Botón de perfil-->
+          <div class=" barraSuperior" >
+            <div class="dropdown" id="logout">
+              <button
+                class="notification-btn btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="background-color: #0033cb; border-radius: 100%; border-color: #0033cb;"
+              >
+                <i
+                  class="fa-regular fa-user"
+                  style="color: white; font-size: 30px"
+                ></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="vista-usuario.html">
+                    <i
+                      class="fa-regular fa-user"
+                      style="color: black; font-size: 20px;"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline;
+                        "
+                      >
+                        Ver perfil
+                      </p>
+                    </i>
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="CrearPostVenta.html">
+                    <i
+                      class="fa-solid fa-arrow-right-arrow-left"
+                      style="color: black; font-size: 20px"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline;
+                        "
+                      >
+                        Vender
+                      </p>
+                    </i>
+                  </a>
+                </li>
+    
+                <li><hr class="dropdown-divider"></li>
+                
+                <li>
+                  <a class="dropdown-item" href="misCompras.html">
+                    <i
+                      class="fa-solid fa-cart-shopping"
+                      style="color: black; font-size: 20px"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline;
+                        "
+                      >
+                        Mis compras
+                      </p>
+                    </i>
+                  </a>
+                </li>
+                
+                <li><hr class="dropdown-divider"></li>
+  
+                <li>
+                  <a class="dropdown-item" href="mis-ventas.html">
+                    <i
+                      class="fa-solid fa-money-bill"
+                      style="color: black; font-size: 20px"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline;
+                        "
+                      >
+                        Mis Ventas
+                      </p>
+                    </i>
+                  </a>
+                </li>
+                
+                <li><hr class="dropdown-divider"></li>
+    
+                <li>
+                  <a class="dropdown-item" href="acercaDe.html">
+                    <i
+                      class="fa-regular fa-circle-question"
+                      style="color: black; font-size: 20px"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline-block;
+                        "
+                      >
+                        Acerca de <br/> nosotros
+                      </p>
+                    </i>
+                  </a>
+                </li>
+    
+                <li><hr class="dropdown-divider"></li>
+    
+                <li><a class="dropdown-item" id="logout-user" href="#">
+                    <i
+                      class="fa-solid fa-right-from-bracket"
+                      style="color: black; font-size: 20px"
+                    >
+                      <p
+                        style="
+                          font-family: Verdana, Geneva, Tahoma, sans-serif;
+                          font-size: 20px;
+                          display: inline-block;
+                        "
+                      >
+                        Salir
+                      </p>
+                    </i>
+                    
+                </a></li>
+                
+              </ul>
+            </div>
+    
+            <div class="dropdown" id="log-in">
+              <button
+                class="notification-btn btn btn-secondary dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                style="background-color: #0033cb; border-radius: 100%; border-color: #0033cb;"
+              >
+                <i class="fa-regular fa-user" style="color: white; font-size: 30px"></i>
+              </button>
+              <ul class="dropdown-menu">
+                
+                <li><a class="dropdown-item" href="login.html ">Inicia Sesión</a></li>
+              </ul>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+  
+      <div class="row">
+        <div id="comunidad" class="divCategoria col-4 menu">
+          <i class="fa-solid fa-users" style="font-size: 40px"></i>
+          <a href="comunidad.html">Comunidad</a>
+        </div>
+        <div id="puntosInt" class="divCategoria col-4 menu">
+          <i class="fa-solid fa-map-location-dot" style="font-size: 40px"></i>
+          <a href="puntosInt.html">Puntos de interes</a>
+        </div>
+        <div id="tienda" class="divCategoria col-4   menu">
+          <i class="fa-solid fa-cart-shopping" style="font-size: 40px"></i>
+          <a href="tienda.html">Tienda en línea</a>
+        </div>
+      </div>
+
+
+    <div id="resultados-busqueda" class="row">
+
+    </div>
+    </div>
+  </body>
+</html>

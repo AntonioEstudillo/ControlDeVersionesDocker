@@ -1,0 +1,84 @@
+  
+  /* Estilos para la imagen de perfil */
+  #imagen-perfil {
+    text-align: center;
+  }
+  
+  .imagen-perfil {
+    margin-top: 20px;
+    border: 3px solid #fff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+  }
+  
+  .asignarImg {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .btn-task-save {
+    margin-top: 10px;
+    background-color: #0033CB;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la sección de información de usuario */
+  .datos-usuario {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  #info-usuario  .caracter-especial {
+    width: 23px;
+  }
+
+  #info-usuario  .apellido {
+    width: 300px;
+  }
+
+  #info-usuario label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+  }
+  
+  .editable {
+    color: #333;
+  }
+  
+  .btn-editar, .btn-guardar, .btn-eliminar {
+    margin-top: 10px;
+    background-color: #0033CB;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  
+  /* Estilos para la sección de últimas publicaciones */
+  h1 {
+    margin-top: 30px;
+  }
+  
+  .datosPost {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
+  
+  .datosPost p {
+    margin: 0;
+  }
+  
+  #articulos-recientes {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  

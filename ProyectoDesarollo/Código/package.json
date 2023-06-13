@@ -1,0 +1,28 @@
+{
+  "name": "proyectopino-main",
+  "version": "1.0.0",
+  "description": "trashmarket",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garduzaaa/proyectopino-main.git"
+  },
+  "keywords": [
+    "sitio",
+    "web"
+  ],
+  "author": "garduza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garduzaaa/proyectopino-main/issues"
+  },
+  "homepage": "https://github.com/Garduzaaa/proyectopino-main#readme",
+  "dependencies": {
+    "brew": "^0.0.8",
+    "gatsby": "^5.9.0"
+  }
+}

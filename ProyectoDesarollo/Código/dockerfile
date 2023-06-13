@@ -1,0 +1,14 @@
+# Define la imagen base de Docker
+FROM nginx:latest
+
+# Copia los archivos de tu aplicación web a la carpeta de trabajo en el contenedor
+RUN mkdir -p /home/app
+
+COPY ./Código  /home/app
+
+
+# Expone el puerto 80 del contenedor para poder acceder a la aplicación web
+EXPOSE 80
+
+# Inicia el servidor web de Nginx cuando se ejecuta el contenedor
+CMD ["nginx", "-g", "daemon off;",]

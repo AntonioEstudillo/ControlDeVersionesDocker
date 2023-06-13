@@ -1,0 +1,39 @@
+.publicacion {
+    background-color: #EEEEEE;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .publicacion:hover {
+    background-color: #DDDDDD;
+  }
+
+  .green-circle {
+    background-color: #79E550;
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  
+  
+  .plus-symbol {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 12px;
+    
+  }
+
+  .img-perfil{
+    width: 125px;
+    height: 125px;
+    margin-left: 50px;
+    border-radius: 100%;
+  }

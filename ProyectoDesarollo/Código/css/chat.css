@@ -1,0 +1,69 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .message {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+  }
+  
+  .sent {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .received {
+    background-color: #f0f0f0;
+    color: #333;
+    align-self: flex-start;
+  }
+  
+  .sender {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .timestamp {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  #chat-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #chat-form label {
+    font-weight: bold;
+  }
+  
+  #chat-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 20px black;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+  }
+  
+  .btn-primary:focus {
+    box-shadow: none;
+  }
+  
+  
